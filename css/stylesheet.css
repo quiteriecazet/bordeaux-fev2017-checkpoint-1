@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Folkard';
+    src: url('/fonts/folkard_.ttf');
+}
+
+.kaamelott-font {
+    font-family: 'Folkard'
+}
