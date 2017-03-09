@@ -1,8 +1,23 @@
 @font-face {
-    font-family: 'Folkard';
-    src: url('/fonts/folkard_.ttf');
+  font-family: 'Folkard';
+  src: url('/fonts/folkard_.ttf');
 }
 
 .kaamelott-font {
-    font-family: 'Folkard'
+  font-family: 'Folkard'
+}
+
+.container {
+  padding-top: 30px;
+}
+
+footer ul {
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 10px;
 }
