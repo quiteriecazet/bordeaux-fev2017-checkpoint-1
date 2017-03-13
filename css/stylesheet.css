@@ -4,11 +4,38 @@
 }
 
 .kaamelott-font {
-  font-family: 'Folkard'
+  font-family: 'Folkard';
 }
 
-.container {
-  padding-top: 30px;
+.navbar, .container .jumbotron {
+  border-radius: 0px;
+}
+
+.navbar-brand.kaamelott-font {
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+.navbar-brand.kaamelott-font:hover {
+  color: #ddd;
+}
+
+.kaamelott-underline {
+  border-bottom: solid 5px #a57824;
+}
+
+.kaamelott-banner.jumbotron {
+  background-image: url('/img/kaamelott-banner.jpg');
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+p.source {
+  text-align: right;
 }
 
 footer ul {
