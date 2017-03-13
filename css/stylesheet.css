@@ -48,3 +48,44 @@ footer ul li {
   display: inline-block;
   padding: 0 10px;
 }
+
+.quote {
+  height: 150px;
+  overflow: hidden;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.quote .hider {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background: linear-gradient(0deg, #fff, transparent);
+}
+
+.thumbnail .img-box {
+  max-height: 200px;
+  overflow: hidden;
+}
+
+.thumbnail .img-box img {
+  width: 100%;
+}
+
+.thumbnail {
+  height: 420px;
+  max-width: 500px;
+  margin: auto;
+  margin-bottom: 15px;
+}
+
+.thumbnail blockquote {
+  padding: 10px;
+  border-left: none;
+}
+
+blockquote {
+  border-left: 5px solid #a57824;
+}
