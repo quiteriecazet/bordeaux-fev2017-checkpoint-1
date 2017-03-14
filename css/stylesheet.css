@@ -89,3 +89,8 @@ footer ul li {
 blockquote {
   border-left: 5px solid #a57824;
 }
+
+.item-actions {
+  text-align: right;
+  padding: 0 5px;
+}
