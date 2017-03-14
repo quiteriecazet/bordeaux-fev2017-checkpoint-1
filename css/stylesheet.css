@@ -94,3 +94,12 @@ blockquote {
   text-align: right;
   padding: 0 5px;
 }
+
+.btn.btn-kaamelott {
+  background-color: #a57824;
+  color: white;
+}
+
+.btn.btn-kaamelott:hover {
+  background-color: #996f21;
+}
