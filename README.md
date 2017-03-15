@@ -62,7 +62,7 @@ Pour cela, tu vas devoir t'adresser à une API qui retournera des objets Article
      - Un champ author de 100 caractères maximum
      - Un champ chapter de 100 caractères maximum
      - Un champ content de 65 535 caractères maximum
-     - Un champ date de type date
+     - Un champ date de type date UTC au format ISO
      - Un champ image de 65 535 caractères maximum contenant l'url de l'image
 
 #### Déroulé
