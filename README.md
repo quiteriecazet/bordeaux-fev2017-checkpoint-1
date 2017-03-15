@@ -82,8 +82,31 @@ Ton fichier de connexion à la base de données ne devra pas se trouver sur le d
  - Pour tester ton code, tu trouveras ici quelques exemples de citations :-D : [Citation Kaamelott](https://fr.wikiquote.org/wiki/Kaamelott)
 
 ## Etape 3 - JS - XHR
+Maintenant que tu as créé tes formulaires, autant les utiliser, rend le site administrable.
+ - On doit pouvoir:
+   - Ajouter une citation
+   - Visualiser toutes les citations directement depuis la page d'accueil, avec le design actuel
+   - [BONUS] Supprimer une citation ciblée
+
+Pour ce faire tu peux suivre les étapes suivantes (Si tu as l'esprit rebelle tu n'es pas obligé de prendre toutes les étapes dans l'ordre) 
 
 #### 1 - Installer un server JSON en local
+Pour rendre le site administrable tu vas avoir besoins de stocker des données. Pour le moment tu ne sais (peut être pas) pas créer une base de donnée et l'intéroger. Cependant tu sais récupérer des données au format JSON depuis une API.
+A l'aide de la librairie [json-server](https://github.com/typicode/json-server) nous allons créer une API REST en local.
+
+Pour ce faire tu dois d'abord installer globalement la librairie depuis ton terminal à l'aide de npm avec la commande suivante (Si tu n'as npm d'installé sur ta machine rapproche toi de ton formateur):
+```
+npm install -g json-server
+```
+
+Une fois json-server installé lance ton serveur avec la commande
+```
+json-server --watch db.json
+```
+
+Tu peux maintenant interoger ton ficher `db.json` qui fait office de base de données depuis l'url `http://localhost:3000`
+
+
 #### 2 - A l'aide d'injection dans le DOM visualiser toutes les citations directement depuis la page d'accueil, avec le design actuel.
 #### 3 - Ajouter une citation depuis le formulaire à l'aide d'une requête POST
 #### 4 - [BONUS] Supprimer une citation depuis la page d'accueil en cliquant sur le bouton supprimer à l'aide d'une requête DELETE
