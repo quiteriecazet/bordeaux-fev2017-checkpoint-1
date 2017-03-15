@@ -17,11 +17,11 @@ JS / PHP - 4h
 - Un fichier index.html, template du site
 - Un dossier README.md (ce que tu es en train de lire en fait)
 
-## Etape 1
+## 1 - Etape 1
 Une fois le dépôt cloné, crées toi une branche sur git portant ton nom, c'est sur cette dernière que tu travailleras.
 Une fois le travail effectué tu pousseras ton travail dessus
 
-## Etape 2
+## 2 - Etape 2
 
 - Pour le moment (ba oui, tu vas bosser un peu quand même), le fichier index.html comporte un mini header ainsi qu'une liste d'articles saisis en dur dans le code.
  - Modifier la barre de navigation afin que l'on y retrouve:
@@ -46,7 +46,7 @@ Une fois le travail effectué tu pousseras ton travail dessus
  - Il manque également quelques classes bootstrap afin que le site soit responsive, ajoute les.
  - Le site a également été codé avec les pieds (faut bien qu'on se fixe des challenges nous aussi), du coup, l'indentation laisse à désirer... tu sais ce qu'il te reste à faire..
 
-## Etape 3 - PHP - Le CRUD
+## 3 - Etape 3 - PHP - Le CRUD
 
 Maintenant que tu as créé tes formulaires, autant les utiliser, rend le site administrable.
  - On doit pouvoir:
@@ -78,7 +78,7 @@ Une fois la base de données créée, il te reste à réaliser ce que l'on appel
 
 Ton fichier de connexion à la base de données ne devra pas se trouver sur le dépôt
 
-## Etape 3 - JS - XHR
+## 3 - Etape 3 - JS - XHR
 Maintenant que tu as créé tes formulaires, autant les utiliser, rend le site administrable.
  - On doit pouvoir:
    - Ajouter une citation
@@ -124,7 +124,7 @@ De la même manière que les deux points précèdent tu dois pouvoir supprimer u
 ### 5 - [BONUS] Ajouter une validation sur les champs du formulaire. (Empêcher d'envoyer des champs vide)
 Afin de ne pas pouvoir envoyer de données incomplètes rajoute une validation sur tes champs avec un message d'erreur qui indique les champs vide.
 
-# Hint
+# 4 - Hint
  - Limite au maximum la redondance de code
  - Google, DuckDuckGo, Qwant... sont tes meilleurs amis
  - Pour tester ton code, tu trouveras ici quelques exemples de citations :-D : [Citation Kaamelott](https://fr.wikiquote.org/wiki/Kaamelott)
