@@ -18,13 +18,13 @@ JS / PHP - 4h
 - Un dossier README.md (ce que tu es en train de lire en fait)
 
 ## Etape 1
-Une fois le dépôt cloné, crée toi une branche sur git portant ton nom, c'est sur cette dernière que tu travailleras.
+Une fois le dépôt cloné, crées toi une branche sur git portant ton nom, c'est sur cette dernière que tu travailleras.
 Une fois le travail effectué tu pousseras ton travail dessus
 
 ## Etape 2
 
-- Pour le moment (ba oui, tu vas bosser un peu quand même), le fichier index.html comporte un mini header ainsi qu'une liste d'article saisi en dur dans le code.
- - Modifier la barre de navigation afin que l'on y retrouve (voir maquette ==> img/maquette.png):
+- Pour le moment (ba oui, tu vas bosser un peu quand même), le fichier index.html comporte un mini header ainsi qu'une liste d'articles saisis en dur dans le code.
+ - Modifier la barre de navigation afin que l'on y retrouve:
    - Un logo placé à gauche qui sera un lien vers la page d'accueil
    - lien vers une page pour ajouter une citation (que tu vas devoir également créer)
  - Créer un footer avec (voir maquette ==> img/maquette.png):
@@ -33,21 +33,21 @@ Une fois le travail effectué tu pousseras ton travail dessus
    - Formulaire avec:
      - Un champ pour l'auteur de la citation
      - Un champ pour la citation
-     - Un champ pour l'épisode dans lequel la citation est dites
+     - Un champ pour l'épisode dans lequel la citation est présente
      - Un champ pour la date d'ajout de la citation (en bonus la date sera définie automatiquement lors de la création)
-     - En bonus: Un champ file permettant d'uploader une image (le moment on le personnage prononce la citation dans l'épisode)
+     - En bonus: Un champ file permettant d'uploader une image (le moment où le personnage prononce la citation dans l'épisode)
  - Page édition de citation:
    - Formulaire avec les mêmes champs que celui d'ajout de citation
 
 #### Hint
 
- - Il est possible que le projet tel que tu l'a récupéré comporte quelques bugs, résout les en même temps.
+ - Il est possible que le projet tel que tu l'as récupéré comporte quelques bugs, résout les en même temps.
  - Il manque également quelques classes bootstrap afin que le site soit responsive, ajoute les.
- - Le site a également été codé avec les pieds (faut bien qu'on se fixe des challenge nous aussi), du coup, l'indentation laisse à désirer... tu sais ce qu'il te reste à faire..
+ - Le site a également été codé avec les pieds (faut bien qu'on se fixe des challenges nous aussi), du coup, l'indentation laisse à désirer... tu sais ce qu'il te reste à faire..
 
 ## Etape 3 - PHP - Le CRUD
 
-Maintenant que tu as créer tes formulaires, autant les utiliser, rend le site administrable.
+Maintenant que tu as créé tes formulaires, autant les utiliser, rend le site administrable.
  - On doit pouvoir:
    - Ajouter une citation
    - Visualiser toutes les citations directement depuis la page d'accueil, avec le design actuel
@@ -64,7 +64,7 @@ Pour cela, tu vas devoir créer une base de données, et ce grâce à mysql en m
      - Un champs date de type date
      - Un champs image de 65 535 caractères maximum  
 
-**Une fois la base de donnée créée, execute les commandes suivantes dans le terminal et fais un copier-coller du résultat dans un fichier sql.txt que tu mettra également sur Github avec le reste de ton projet:**  
+**Une fois la base de donnée créée, execute les commandes suivantes dans le terminal et fais un copier-coller du résultat dans un fichier sql.txt que tu mettras également sur Github avec le reste de ton projet:**  
  - ```echo  > ~/.mysql_history```
  - ```cat ~/.mysql_history```  
 
@@ -79,6 +79,6 @@ Ton fichier de connexion à la base de données ne devra pas se trouver sur le d
 #### Hint
  - Limite au maximum la redondance de code
  - Google, DuckDuckGo, Qwant... sont tes meilleurs amis
- - Pour tester ton code, tu trouvera ici quelques exemples de citations :-D : [Citation Kaamelott](https://fr.wikiquote.org/wiki/Kaamelott)
+ - Pour tester ton code, tu trouveras ici quelques exemples de citations :-D : [Citation Kaamelott](https://fr.wikiquote.org/wiki/Kaamelott)
 
 # Bon courage
