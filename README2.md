@@ -7,8 +7,7 @@ JS - 4h
 - [Introduction](#introduction)
 - [Etape 1](#etape-1)
 - [Etape 2](#etape-2)
-- [Etape 3 - version PHP](#etape-3---php---le-crud)
-- [Etape 3 - version JS](#etape-3---js---xhr)
+- [Etape 3](#etape-3---js---xhr)
 - [Hint](#hint-1)
 
 # Introduction
