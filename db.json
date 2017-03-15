@@ -1,0 +1,52 @@
+{
+  "articles": [
+    {
+      "id": "1",
+      "citation": "Faut arrêter ces conneries de nord et de sud ! Une fois pour toutes, le nord, suivant comment on est tourné, ça change tout !",
+      "author": "Perceval",
+      "season": "Perceval 1",
+      "episode": "Ambidextrie",
+      "img-url": "/img/livre-1-ambidextrie.jpg"
+    },
+    {
+      "id": "2",
+      "citation": "La politique de l'autruche, c'est une politique qui court vite, une politique qui fait des gros œufs, c'est tout.",
+      "author": "Karadoc",
+      "season": "Livre II",
+      "episode": "La Cassette",
+      "img-url": "/img/livre-2-la-cassette.png"
+    },
+    {
+      "id": "3",
+      "citation": "En plus, je connais une technique pour tuer trois hommes en un coup rien qu’avec des feuilles mortes ! Alors là, vous êtes deux, vous avez bien de la chance.",
+      "author": "Perceval",
+      "season": "Livre IV",
+      "episode": "Les Chaperons",
+      "img-url": "/img/livre-4-les-chaperons.jpg"
+    },
+    {
+      "id": "4",
+      "citation": "Par exemple, vous prenez aujourd’hui. Vous comptez sept jours. Ça vous emmène dans une semaine. Et bien on sera exactement le même jour qu’aujourd’hui… À une vache près, hein… C’est pas une science exacte.",
+      "author": "Karadoc",
+      "season": "Livre II",
+      "episode": "Sept cent quarante-quatre",
+      "img-url": "/img/livre-2-sept-cent-quarante-quatre.jpg"
+    },
+    {
+      "id": "5",
+      "citation": "Qu’est-ce que c’est que ce style de bouffer des petits machins tout secs et trois gallons de flotte par jour ? […] Si la jeunesse se met à croire à ces conneries, on se dirige tout droit vers une génération de dépressifs ! Le gras, c’est la vie.",
+      "author": "Karadoc",
+      "season": "Livre II",
+      "episode": "Corpore sano",
+      "img-url": "/img/livre-2-corpore-sano.jpg"
+    },
+    {
+      "id": "6",
+      "citation": "Au bout d'un moment, il est vraiment druide, c'mec-là, ou ça fait quinze ans qu'il me prend pour un con ?",
+      "author": "Arthur",
+      "season": "Livre I",
+      "episode": "L’Imposteur",
+      "img-url": "/img/livre-1-l-imposteur.jpg"
+    }
+  ]
+}
