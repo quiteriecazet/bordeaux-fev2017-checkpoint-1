@@ -81,4 +81,12 @@ Ton fichier de connexion à la base de données ne devra pas se trouver sur le d
  - Google, DuckDuckGo, Qwant... sont tes meilleurs amis
  - Pour tester ton code, tu trouveras ici quelques exemples de citations :-D : [Citation Kaamelott](https://fr.wikiquote.org/wiki/Kaamelott)
 
+## Etape 3 - JS - XHR
+
+#### 1 - Installer un server Json en local
+#### 2 - A l'aide d'injection dans le DOM visualiser toutes les citations directement depuis la page d'accueil, avec le design actuel.
+#### 3 - Ajouter une citation depuis le formulaire à l'aide d'une requête POST
+#### 4 - [BONUS] Supprimer une citation depuis la page d'accueil en cliquant sur le bouton supprimer à l'aide d'une requête DELETE
+#### 5 - [BONUS] Ajouter une validation sur les champs du formulaire. (Empêcher d'envoyer des champs vide)
+
 # Bon courage
