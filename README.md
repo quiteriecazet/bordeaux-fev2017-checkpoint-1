@@ -34,6 +34,7 @@ Une fois le travail effectué tu pousseras ton travail dessus
      - Un champ pour l'auteur de la citation
      - Un champ pour la citation
      - Un champ pour l'épisode dans lequel la citation est présente
+     - Un champ pour la saison dans lequel la citation est présente
      - Un champ pour la date d'ajout de la citation (en bonus la date sera définie automatiquement lors de la création)
      - En bonus: Un champ file permettant d'uploader une image (le moment où le personnage prononce la citation dans l'épisode)
  - Page édition de citation:
@@ -60,6 +61,7 @@ Pour cela, tu vas devoir créer une base de données, et ce grâce à mysql en m
      - Un champs id qui sera la clé unique de la table, ce dernier ne devra jamais être nul, et devra s'incrémenter automatiquement
      - Un champs author de 100 caractères maximum
      - Un champs chapter de 100 caractères maximum
+     - Un champs season de 100 caractères maximum
      - Un champs content de 65 535 caractères maximum
      - Un champs date de type date
      - Un champs image de 65 535 caractères maximum  
@@ -76,11 +78,6 @@ Une fois la base de données créée, il te reste à réaliser ce que l'on appel
 
 Ton fichier de connexion à la base de données ne devra pas se trouver sur le dépôt
 
-#### Hint
- - Limite au maximum la redondance de code
- - Google, DuckDuckGo, Qwant... sont tes meilleurs amis
- - Pour tester ton code, tu trouveras ici quelques exemples de citations :-D : [Citation Kaamelott](https://fr.wikiquote.org/wiki/Kaamelott)
-
 ## Etape 3 - JS - XHR
 Maintenant que tu as créé tes formulaires, autant les utiliser, rend le site administrable.
  - On doit pouvoir:
@@ -88,7 +85,7 @@ Maintenant que tu as créé tes formulaires, autant les utiliser, rend le site a
    - Visualiser toutes les citations directement depuis la page d'accueil, avec le design actuel
    - [BONUS] Supprimer une citation ciblée
 
-Pour ce faire tu peux suivre les étapes suivantes (Si tu as l'esprit rebelle tu n'es pas obligé de prendre toutes les étapes dans l'ordre) 
+Pour ce faire tu peux suivre les étapes suivantes (Si tu as l'esprit rebelle tu n'es pas obligé de prendre toutes les étapes dans l'ordre)
 
 #### 1 - Installer un server JSON en local
 Pour rendre le site administrable tu vas avoir besoins de stocker des données. Pour le moment tu ne sais (peut être pas) pas créer une base de donnée et l'intéroger. Cependant tu sais récupérer des données au format JSON depuis une API.
@@ -104,12 +101,33 @@ Une fois json-server installé lance ton serveur avec la commande
 json-server --watch db.json
 ```
 
-Tu peux maintenant interoger ton ficher `db.json` qui fait office de base de données depuis l'url `http://localhost:3000`
+Tu peux maintenant interoger ton ficher `db.json` qui fait office de base de données depuis l'url `http://localhost:3000`. N'hésite pas à parcourir la doc de la librairie [json-server](https://github.com/typicode/json-server) ou de te rendre depuis ton navigateur sur `http://localhost:3000` pour decourvir les url accessibles  sur ton server local.
 
 
 #### 2 - A l'aide d'injection dans le DOM visualiser toutes les citations directement depuis la page d'accueil, avec le design actuel.
+Utilises des requêtes XHR (ou AJAX si tu es plus à l'aise avec Jquery) pour récupérer les données. Cet exemple incomplet  peut te rafraichir la mémoire.
+```
+function getArticles() {
+	const xhr = new XMLHttpRequest();
+…
+xhr.send();
+}
+```
+Tu dois ensuite remplacer les informations écrite en dure dans `index.html` en injectant les données que tu as récupérer de ton server JSON.
+
 #### 3 - Ajouter une citation depuis le formulaire à l'aide d'une requête POST
+De la même manière que le point précèdent tu dois cette fois si ajouter des citations à partir des données saisis dans ton formulaire.
+
 #### 4 - [BONUS] Supprimer une citation depuis la page d'accueil en cliquant sur le bouton supprimer à l'aide d'une requête DELETE
+De la même manière que les deux points précèdent tu dois pouvoir supprimer une citation en cliquant sur le bouton supprimer de chaque citation.
+
 #### 5 - [BONUS] Ajouter une validation sur les champs du formulaire. (Empêcher d'envoyer des champs vide)
+Afin de ne pas pouvoir envoyer de données incomplètes rajoute une validation sur tes champs avec un message d'erreur qui indique les champs vide.
+
+# Hint
+ - Limite au maximum la redondance de code
+ - Google, DuckDuckGo, Qwant... sont tes meilleurs amis
+ - Pour tester ton code, tu trouveras ici quelques exemples de citations :-D : [Citation Kaamelott](https://fr.wikiquote.org/wiki/Kaamelott)
+
 
 # Bon courage
