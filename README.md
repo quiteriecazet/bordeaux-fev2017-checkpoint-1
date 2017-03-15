@@ -117,7 +117,7 @@ Tu peux maintenant interoger ton ficher `db.json` qui fait office de base de don
 
 ### 2 - A l'aide d'injection dans le DOM visualiser toutes les citations directement depuis la page d'accueil, avec le design actuel.
 Utilises des requêtes XHR (ou AJAX si tu es plus à l'aise avec Jquery) pour récupérer les données. Cet exemple incomplet  peut te rafraichir la mémoire.
-```
+``` javascript 
 function getArticles() {
 	const xhr = new XMLHttpRequest();
 …
