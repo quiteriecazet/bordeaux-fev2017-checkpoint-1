@@ -5,7 +5,8 @@
 3. Citation
 4. Footer
 ==================================================
-\************************************************/
+/************************************************\
+
 
 /************************************************\
 ==================================================
@@ -14,18 +15,34 @@
 \************************************************/
 @font-face {
   font-family: 'Folkard';
-  src: url('/fonts/folkard_.ttf');
+  src: url('../fonts/folkard_.ttf');
 }
 
-.kaamelott-font {
+body > * {
   font-family: 'Folkard';
 }
 
+ 
 /************************************************\
 ==================================================
 2. Navbar
 ==================================================
 \************************************************/
+
+nav {
+  width: 100%;
+}
+
+.logo {
+  height: 150px;
+  width: 200px;
+  float: left;
+}
+
+
+.navbar-brand {
+  float: right;
+}
 
 
 /************************************************\
@@ -37,8 +54,8 @@
   border-bottom: solid 5px #a57824;
 }
 
-.kaamelott-banner.jumbotron {
-  background-image: url('/img/kaamelott-banner.jpg');
+.kaamelott-banner.jumbotron.kaamelott-underline {
+  background-image: url(../img/kaamelott-banner.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -77,7 +94,7 @@ p.source {
 .thumbnail {
   height: 420px;
   max-width: 500px;
-  margin: auto;
+
   margin-bottom: 15px;
 }
 
@@ -104,9 +121,40 @@ blockquote {
   background-color: #996f21;
 }
 
+form {
+  width: 500px;
+  height: 500px;
+  border: 2px solid #a57824;
+  margin-top: 100px;
+  margin-left: 400px;
+  padding: 50px;
+  
+}
+
+
+
 
 /************************************************\
 ==================================================
 4. Footer
 ==================================================
 \************************************************/
+
+
+
+
+footer {
+ background-color: black;
+ float: bottom;
+ width: 100%;
+ height: 150px;
+ bottom: -350px;
+ position: absolute;
+ text-align: center;
+
+}
+
+footer > * {
+  margin: 60px;
+}
+
